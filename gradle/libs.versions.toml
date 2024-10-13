@@ -11,6 +11,7 @@ composeBom = "2024.04.01"
 navigationCompose = "2.8.0-beta06"
 credentials = "1.5.0-alpha04"
 kotlinSerialization = "1.6.3"
+roomKtx = "2.6.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -34,6 +35,7 @@ androidx-credentials-compat = { group = "androidx.credentials", name = "credenti
 # Added for non-deprecated LocalLifecycleOwner
 androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycleRuntimeKtx" }
 kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinSerialization" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
